@@ -1,0 +1,329 @@
+
+a {
+	color:black;
+}
+
+a:hover{
+	color:black;
+}
+
+a:focus{
+	color:black;
+	text-decoration:none;
+
+}
+
+.headerArea{
+	position:relative;
+	float:left;
+	background-color:none;
+	margin-top:25%;
+
+}
+
+.finish{
+	top:20%;
+	right:70%;
+	width:240px;
+	position:fixed;
+	background-color:none;
+	color:black;
+	font-size:14px;
+	line-height:20px;
+	opacity:0;
+
+	line-height:1.6;
+
+}
+
+.hide{
+	display:none;
+}
+
+.footerBold{
+
+		background-color: rgb(185,213,50);
+		padding:2px 1px 2px 1px;
+		color:black !important;
+}
+
+
+.regionTitle{
+	position:relative;
+	float:left;
+	background-color:none;
+	height: 1000px;
+	width:100%;
+	padding-top:2%;
+	margin-bottom:3000px;
+
+}
+.regionRect{
+	fill:rgba(242,242,242,.8);
+}
+
+.regionRectLine{
+	fill:rgb(253,253,253);
+}
+
+
+ #regionTitle.sticky {
+     position: fixed;
+     top: 0;
+  }
+
+.instructions{
+	position:absolute;
+    line-height:121%;
+    color:black;
+    z-index:2000;
+    width:50%;
+    font-size:12px;
+
+}
+
+
+.regionLabels{
+	font-family:'helvetica', sans-serif;
+	font-size:10px;
+	fill:rgb(72,72,72);
+	font-weight:bold;
+}
+
+.keyLabels{
+	font-family:'helvetica', sans-serif;
+	font-size:11px;
+	fill:rgb(82,82,82);
+}
+
+.carpet{
+	position:relative;
+	float:right;
+	width:50%;
+}
+
+.container{
+	width:90%;
+}
+
+
+
+
+
+.container .canvas{
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	height:9100px;
+	position: relative;
+	float:right;
+	background-color:none;
+	padding-top:80%;
+	margin-top:400px;
+}
+
+.scroll{
+	width:40%;
+	height:100%;
+	background-color:none;
+	position:fixed;
+}
+
+.arrow{
+	top:15%;
+	right:58%;
+	width:140px;
+	position:fixed;
+	background-color:none;
+	text-align:center;
+	color:black;
+	font-weight: bold;
+	font-size:14px;
+	line-height:20px;
+
+
+}
+
+.start{
+	opacity:0;
+}
+
+.title{
+	height:20%;
+	border-bottom:solid black;
+	position:relative;
+}
+
+#sub{
+	width:40%;
+}
+
+
+.mainDash{
+position:fixed !important;
+position:absolute;
+width:90%;
+top:0;
+right:0;
+bottom:0;
+left:0;
+background-color:none;
+margin-left:5%;
+cursor:default;
+}
+
+
+.mainDash2{
+position:fixed !important;
+position:absolute;
+width:90%;
+top:0;
+right:0;
+bottom:0;
+left:0;
+background-color:none;
+margin-left:5%;
+cursor:default;
+}
+
+
+.axis{
+	font-size:35px;
+}
+
+.axis .domain{
+	fill:none;
+}
+
+.axis{
+	color:black;
+	opacity:1;
+	font-weight:bold;
+}
+
+.line{
+	position:absolute;
+	width:37%;
+	top:28.5%;
+	border-bottom:  solid rgb(185,213,50) 3px;
+	position:fixed;
+	margin-left:40%;
+}
+
+.buttonWarName{
+	position:fixed;
+	height:5%;
+	color:black;
+	width:42%;
+	top:27%;
+	padding-right:8px;
+	padding-left:8px;
+	background-color:none;
+
+}
+
+
+.green{
+		background:rgb(185,213,50);
+		font-family:'publico', sans-serif;
+		font-size: 25px;
+		padding:8px 5px 5px 10px;
+
+}
+
+/*.backTT{
+		font-size: 12px;
+	   padding:3px 3px 3px 3px;
+
+}*/
+
+
+
+.label{
+	font-family:'helvetica', sans-serif;
+	font-size:8px;
+	font-weight:lighter;
+	line-height:20px;
+}
+
+.countryLabel{
+	font-family:'helvetica', sans-serif;
+	font-size:10px;
+	line-height:20px;
+}
+
+.labels{
+	font-family:'helvetica', sans-serif;
+	font-size:11px;
+}
+
+.casLabels{
+	font-family:'helvetica', sans-serif;
+	font-size:12px;
+	font-weight:bold;
+}
+
+.pointer{
+	font-size:16px;
+	font-weight:bolder;
+}
+/* ---------fonts------------ */
+
+body{
+	font-family:'publico', sans-serif;
+	font-weight: 50;
+	font-size:14px;
+	background:rgb(253,253,253);
+}
+h1,h2,h3,h4{
+	margin:0 0 10px;
+}
+
+h2{
+	font-weight:bold;
+}
+
+h1{
+	font-size:82px;
+	font-weight:bold;
+}
+
+.mainTitle{
+	color:black;
+
+}
+
+
+/*-----------Tooltip------------*/
+
+.tooltipText{
+	padding:1px;
+	margin:0;
+	margin-left:10%;
+}
+
+.tooltipClass{
+	padding-top:200px;
+}
+
+
+@font-face{
+	font-family:MaisonNeue;
+	font-weight:bold;
+	src:url("./assets/fonts/maisonneue/MaisonNeueTRIAL-Bold.otf");
+}
+@font-face{
+	font-family:MaisonNeue;
+	font-weight:normal;
+	src:url("./assets/fonts/maisonneue/MaisonNeueTRIAL-Demi.otf");
+}
+@font-face{
+	font-family:Publico;
+	font-weight:normal;
+	src:url("./assets/fonts/publico/PublicoText-Roman-Web.woff");
+}
+@font-face{
+	font-family:Publico;
+	font-weight:bold;
+	src:url("./assets/fonts/publico/PublicoText-Bold-Web.woff");
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head><link rel='shorcut icon' href="assets/tab_image.png"/>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>200 years of war</title>
+
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+	<div class="container">
+
+		<div class='finish'><h2>About</h2></br>
+		This project was part of <a href='http://www.northeastern.edu/visualization/' target=_'blank'>the Information Design + Visualization Graduate program </a>at Northeastern University.</br></br>
+
+		The data came from the Correlates of War Project. For more information about the data and to explore other datasets, please visit <a href='http://www.correlatesofwar.org' target=_'blank'>correlatesofwar.org.</a></br></br>
+
+		Principle designers / developers:</br><a href='http://www.ryanmorrill.com' target=_'blank'>
+		<strong class='footerBold'>Ryan Morrill</a></strong></br>
+		<strong class='footerBold'>Xinhe Yu</strong></br></br>
+
+		Advisor:</br>
+		<strong class='footerBold'>Siqi Zhu</strong>
+</div>
+
+<div class="scroll"><div class="arrow">scroll to explore<img src="arrow-03.svg"></div></div>
+		
+
+
+	<div class="mainDash start" id="mainDash"></div><!--END MAINDASH-->
+
+
+<div class="carpet">
+
+		<div class='headerArea'>
+		<h1 class="mainTitle">Two</br>Hundred</br>Years</br>of War</h1></br><p>Explore
+		the last two centuries of global intra-state war.</br>States/countries are divided into the six regions below. </br></br></p></div>
+
+  		<div class='regionTitle' id='regionTitle'></div>
+
+
+<div class="canvas" id="plot">
+
+			
+
+
+	</div> <!--END canvas-->
+
+	<div class="instructions">
+					<p class="instructions"></p>
+				</div>
+
+</div>
+				
+<!-- <div id='white'></div> -->
+			<div class='line start'></div>
+
+<div class='buttonWarName start' align='right'><strong class='green'>war name</strong></div>
+	<!--Tooltips---->
+		<div class="customTooltips"></div>
+
+	</div><!-- END CONTAINER-->
+
+	<!-- Scripts -->
+	<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="queue/queue.min.js"></script>
+	<script src="./lib/crossfilter/crossfilter.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.js"></script>
+    <script src="Modules/tooltip.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
